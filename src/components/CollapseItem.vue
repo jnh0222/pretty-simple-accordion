@@ -1,7 +1,7 @@
 <template>
   <div class="collapse-item" :class="userCollapseItemClass">
     <div class="collapse-head" :class="headActiveClass" @click="toggleShow">{{title}}</div>
-    <div v-show="isContentShwoing" class="collapse-body">{{content}}</div>
+    <div v-show="isContentShowing" class="collapse-body">{{content}}</div>
   </div>
 </template>
 
@@ -17,7 +17,7 @@ export default {
     collapseItemClass: {type: String, required: false }
   },
   computed: {
-    isContentShwoing() {
+    isContentShowing() {
       if(this.isShowing) {
         this.$emit("collapse-opened");
       } else {
