@@ -3,10 +3,10 @@
 ## [Demo](https://codesandbox.io/s/pretty-simple-accordion-48lll)
 
 ## Events
-| Name  	              | Description                                                           |
-|---    	              |---	                                                                  |
-| collapse-opened       | Event triggered when a collapse item opened. Returns index of target. |
-| collapse-closed       | Event triggered when a collapse item closed. Returns index of target. |
+| Name  	                     | Description                                                           |
+|---    	                     |---	                                                                   |
+| simple-collapse-opened       | Event triggered when a collapse item opened. Returns index of target. |
+| simple-collapse-closed       | Event triggered when a collapse item closed. Returns index of target. |
 
 ## Props
 | Name                  | Description                                        |
@@ -16,6 +16,6 @@
 | collapseItemClass     | custom class can be added to component root level. |
 
 ## Class
-| Name  	              | Description                                                  |
-|---    	              |---	                                                         |
-| collapse-head--active | A class placed at collapse-head when a collapse item opened. |
+| Name  	                     | Description                                                         |
+|---    	                     |---	                                                                 |
+| simple-collapse-head--active | A class placed at simple-collapse-head when a collapse item opened. |

@@ -6,7 +6,7 @@ export default {
     };
   },
   methods: {
-    toggleShow() {
+    toggleShowing() {
       this.isShowing = !this.isShowing;
     }
   }
