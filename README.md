@@ -1,6 +1,6 @@
 # pretty-simple-accordion
 
-## [Demo](https://codesandbox.io/s/pretty-simple-accordion-48lll)
+## [Demo](https://codesandbox.io/s/github/jnh0222/pretty-simple-accordion)
 
 ## Events
 | Name  	                     | Description                                                           |
